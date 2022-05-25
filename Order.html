@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="order.css">
+    <title>
+        Order Here
+    </title>
+</head>
+<body>
+    <h1>
+        Order Your Meal
+    </h1>
+    <form>
+        <label class="neon"for="name"> Name: </label>
+        <br>
+        <br>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <br>
+        <br>
+        <label class="neon"for="adress"> Adress:</label>
+        <br>
+        <br>
+        <br>
+        <textarea row="5" columns="13" id="adress"></textarea>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label class="neon"for="fname">Drinks (Hold down the control key to select multiple):</label>
+        <br>
+        <br>
+        <br>
+        <select multiple>
+            <optgroup label="Fruit Drinks">
+                <option value="Orange Juice">Orange Juice</option>
+                <option  value="Apple Juice" >Apple Juice</option> 
+                <option value="Punch">Punch</option>
+                <option value="Lemonade"> Lemonade</option>
+            </optgroup>
+            <optgroup label="Sodas">
+                <option  value="Coca Cola">Coca cola</option> 
+                <option  value="Sprite">Sprite</option>  
+                <option value="Fanta">Fanta</option>
+            </optgroup> 
+       </select>
+       <br>
+       <br>
+       <br>
+       <br>
+       <label class="neon"for="fname">Snacks (Hold down the control key to select multiple):</label>
+        <br>
+        <br>
+        <br>
+        <select multiple>
+            <optgroup label="Big Snacks">
+                <option value="Nacho Plate">Nacho Plate</option>
+                <option  value="Mini Pizzas" >Mini Pizzas</option> 
+                <option value="Mini Vegetarian Hotdogs">Mini Vegetarian Hotdogs</option>
+                <option value="Lemonade"> Mini Chicken Hotdogs</option>
+            </optgroup>
+            <optgroup label="Small Snacks">
+                <option  value="Fries">Fries</option> 
+                <option  value="Chicken Wings">Chicken Wings</option>  
+                <option value="Garlic Bread">Garlic Bread</option>
+            </optgroup> 
+       </select>
+       <br>
+       <br>
+       <br>
+       <br>
+       <label class="neon"for="fname">Meals (Hold down the control key to select multiple):</label>
+       <br>
+       <br>
+       <br>
+       <select multiple>
+           <optgroup label="Salads">
+               <option value="Caesar Salad">Caesar Salad</option>
+               <option  value="Greek Salad" >Greek salad</option> 
+               <option  value="Chicken Salad" >Chicken Salad</option> 
+           </optgroup>
+           <optgroup label="Soups">
+               <option  value="Chicken Soup">Chicken Soup</option> 
+               <option  value="Chicken Noodle Soup">Chicken Noodle Soup</option>  
+               <option value="Vegetarian Soup">Vegetarian Soup</option>
+           </optgroup> 
+           <optgroup label="Pastas">
+            <option  value="Spaghetti">Spaghetti</option> 
+            <option  value="Alfredo Pasta">Alfredo Pasta</option>  
+            <option value="Chicken Pasta">Chicken Pasta</option>
+            </optgroup>
+        </optgroup> 
+        <optgroup label="Pizza">
+         <option  value="Cheese">Cheese Pizza</option> 
+         <option  value="Chicken">Chicken Pizza</option>  
+         <option value="Vegetarian Pizza">Vegetarian Pizza</option>
+         </optgroup>
+      </select>
+      <br>
+      <br>
+      <br>
+      <br>
+      <label class="neon"for="name"> Special Requests: </label>
+      <br>
+      <br>
+      <br>
+      <textarea row="5" columns="13" id="Special Requests"></textarea>
+      <br>
+      <br>
+      <br>
+      <br>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button onclick="myFunction()">Confirm Order</button>
+
+<script>
+function myFunction() {
+  alert("Order confirmed! Pay at delivery!");
+}
+</script>
+</body>
+</html>
